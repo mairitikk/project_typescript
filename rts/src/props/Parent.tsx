@@ -3,7 +3,7 @@ import {Child} from './Child'
 
 const Parent = () => {
   return (
-    <Child></Child>
+    <Child color='red'></Child>
   )
 }
 

@@ -2,10 +2,10 @@ import React from 'react'
 interface ChildProps{
     color: string;
 }
-const Child = () => {
+export const Child = ({color}:ChildProps) => {
   return (
-    <div>Child</div>
+    <div>{color}</div>
   )
 }
 
-export default Child
+export const ChildAsFC: React
