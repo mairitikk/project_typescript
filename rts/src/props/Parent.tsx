@@ -3,7 +3,7 @@ import {Child} from './Child'
 
 const Parent = () => {
   return (
-    <Child color='red'></Child>
+    <Child color='red' onClick={() => console.log('Clicked')}></Child>
   )
 }
 
