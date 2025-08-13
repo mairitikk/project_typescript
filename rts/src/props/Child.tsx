@@ -6,7 +6,9 @@ interface ChildProps{
 }
 export const Child = ({color}:ChildProps) => {
   return (
-    <div>{color}</div>
+    <div>{color}
+    <button>Click me</button>
+    </div>
   )
 }
 // parem variant kirjutada, siis pakub ise variante v2lja
