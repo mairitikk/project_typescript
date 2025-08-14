@@ -3,6 +3,7 @@ import { useState } from "react";
 
 const GuestList: React.FC = () => {
 const [name, setName] = useState('');
+const [guests, setGuests] = useState([]);
 
     return <div>
        <h3>Guest List</h3> 
